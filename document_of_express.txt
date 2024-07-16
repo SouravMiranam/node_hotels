@@ -1,0 +1,16 @@
+crating a server in node js via express package
+
+server==waiter
+api==menucard
+endpoints=items in the menu
+
+using express we make api
+
+
+to make a server  firstly create a file using .js
+
+then paste the snipit from npm express from google
+
+then inside terminal-> node server.js
+
+to check if it is running or not serach on google localhost:nummber

@@ -1,0 +1,5 @@
+we made a file called db.js this is made to make the connection between nodejs and mongo db database
+
+now we import mongoose library steps:
+1.inside that file -->const mongoose=require("mongoose");
+2. npm install monhgoose

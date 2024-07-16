@@ -1,0 +1,7 @@
+connect mongodb with node js
+first we need a mongodb driver which act as a bridge between node js application mongodb database database
+driver helps to translate the language between both
+
+the most piopluar driver is "mongodb package"
+npm install mongodb--> we will not use this 
+because we have mongoose 
