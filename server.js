@@ -1,10 +1,13 @@
 const express = require('express');
 const app = express();
 
+
 const db = require('./db'); // Assuming db.js is properly setting up the database connection
 const bodyParser = require('body-parser');
 const person = require('./person');
 const drinkitems=require('./drinks');
+
+require('dotenv').config();
 
 app.use(bodyParser.json()); // Use bodyParser middleware to parse JSON data
 
@@ -42,7 +45,7 @@ app.use('/drinkitem',drinkroute);
 //   console.log('Data is saved');
 //   res.send("Data is received successfully");
 // });
-
-app.listen(3000, () => {
+const PORT=process.env.PORT||3000;
+app.listen(PORT, () => {
   console.log("Server is listening on port 3000");
 });
