@@ -23,11 +23,7 @@ app.use('/person',personroute);
 app.use('/menuitem',menuroute);
 app.use('/drinkitem',drinkroute);
 
-
-
-
-
-// Uncomment these routes if you want to add more functionalities
+//comment added for testing git and git hub
 // app.get('/chicken', (req, res) => {
 //   res.send("I would love to serve you chicken");
 // });
